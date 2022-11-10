@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC3B8C00291D33F200D49559 /* MainTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3B8BFF291D33F200D49559 /* MainTabbarViewController.swift */; };
+		AC3B8C02291D380600D49559 /* RecodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3B8C01291D380600D49559 /* RecodeViewController.swift */; };
+		AC3B8C06291D3A1600D49559 /* DrugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3B8C05291D3A1600D49559 /* DrugViewController.swift */; };
 		AC52044B2909ECB5006B0638 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52044A2909ECB5006B0638 /* AppDelegate.swift */; };
 		AC52044D2909ECB5006B0638 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52044C2909ECB5006B0638 /* SceneDelegate.swift */; };
 		AC52044F2909ECB5006B0638 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52044E2909ECB5006B0638 /* ViewController.swift */; };
@@ -16,6 +19,7 @@
 		AC5204622909ECB6006B0638 /* JP001Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5204612909ECB6006B0638 /* JP001Tests.swift */; };
 		AC52046C2909ECB6006B0638 /* JP001UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52046B2909ECB6006B0638 /* JP001UITests.swift */; };
 		AC52046E2909ECB6006B0638 /* JP001UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52046D2909ECB6006B0638 /* JP001UITestsLaunchTests.swift */; };
+		AC52047B2909EFCD006B0638 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52047A2909EFCD006B0638 /* test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC3B8BFF291D33F200D49559 /* MainTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarViewController.swift; sourceTree = "<group>"; };
+		AC3B8C01291D380600D49559 /* RecodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecodeViewController.swift; sourceTree = "<group>"; };
+		AC3B8C05291D3A1600D49559 /* DrugViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugViewController.swift; sourceTree = "<group>"; };
 		AC5204472909ECB5006B0638 /* JP001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JP001.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC52044A2909ECB5006B0638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC52044C2909ECB5006B0638 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,7 @@
 		AC5204672909ECB6006B0638 /* JP001UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JP001UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC52046B2909ECB6006B0638 /* JP001UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JP001UITests.swift; sourceTree = "<group>"; };
 		AC52046D2909ECB6006B0638 /* JP001UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JP001UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AC52047A2909EFCD006B0638 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,14 @@
 		AC5204492909ECB5006B0638 /* JP001 */ = {
 			isa = PBXGroup;
 			children = (
+				AC52047A2909EFCD006B0638 /* test.swift */,
 				AC52044A2909ECB5006B0638 /* AppDelegate.swift */,
 				AC52044C2909ECB5006B0638 /* SceneDelegate.swift */,
 				AC52044E2909ECB5006B0638 /* ViewController.swift */,
 				AC5204502909ECB5006B0638 /* Main.storyboard */,
+				AC3B8C05291D3A1600D49559 /* DrugViewController.swift */,
+				AC3B8C01291D380600D49559 /* RecodeViewController.swift */,
+				AC3B8BFF291D33F200D49559 /* MainTabbarViewController.swift */,
 				AC5204532909ECB6006B0638 /* Assets.xcassets */,
 				AC5204552909ECB6006B0638 /* LaunchScreen.storyboard */,
 				AC5204582909ECB6006B0638 /* Info.plist */,
@@ -258,9 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC3B8C02291D380600D49559 /* RecodeViewController.swift in Sources */,
 				AC52044F2909ECB5006B0638 /* ViewController.swift in Sources */,
+				AC52047B2909EFCD006B0638 /* test.swift in Sources */,
+				AC3B8C06291D3A1600D49559 /* DrugViewController.swift in Sources */,
 				AC52044B2909ECB5006B0638 /* AppDelegate.swift in Sources */,
 				AC52044D2909ECB5006B0638 /* SceneDelegate.swift in Sources */,
+				AC3B8C00291D33F200D49559 /* MainTabbarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

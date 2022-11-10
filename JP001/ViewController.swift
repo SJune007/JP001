@@ -14,6 +14,16 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func onStart(_ sender: Any) {
+        guard let tbvc = self.storyboard?.instantiateViewController(identifier: "MainTabbarViewController") as? MainTabbarViewController else {
+            return
+        }
+        
+        tbvc.modalPresentationStyle = .fullScreen
+        self.present(tbvc, animated: true)
+        
+     
+    }
+    
 }
 
